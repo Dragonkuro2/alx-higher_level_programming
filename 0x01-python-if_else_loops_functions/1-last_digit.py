@@ -8,6 +8,7 @@ if number < 0:
 last_digit = number % 10
 if check == 1:
     number *= -1
+    last_digit *= -1
 
 if last_digit > 5:
     string = "and is greater than 5"
