@@ -12,4 +12,3 @@ def fizzbuzz():
             pass
         else:
             print(f"{num:d} ", end="")
-    print("")
