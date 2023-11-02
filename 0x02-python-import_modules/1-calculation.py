@@ -3,7 +3,7 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     a = 10
     b = 5
-    print(f"10 + 5 = {add(a, b):d}")
-    print(f"10 - 5 = {sub(a, b):d}")
-    print(f"10 * 5 = {mul(a, b):d}")
-    print(f"10 / 5 = {div(a, b):d}")
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
