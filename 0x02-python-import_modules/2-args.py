@@ -6,4 +6,4 @@ if __name__ == "__main__":
     numarg = len(sys.argv)
     print(f"{numarg - 1} arguments:")
     for i in range(1, numarg):
-        print(f"{numarg}: {sys.argv[i]}")
+        print(f"{i}: {sys.argv[i]}")
