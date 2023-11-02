@@ -2,5 +2,4 @@
 from add_0 import add
 a = 1
 b = 2
-res = add(a, b)
-print(f"{a:d} + {b:d} = {res:d}")
+print(f"{a:d} + {b:d} = {add(a, b):d}")
