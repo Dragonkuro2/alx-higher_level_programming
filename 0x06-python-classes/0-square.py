@@ -1,4 +1,8 @@
 #!/usr/bin/python3
-"""this is a simpel class with the name Square and doesn;t nothing it is just an empty class"""
+''' empty class with the name Square. '''
+
+
 class Square:
+    ''' we write pass to just skip this class for now
+    because we want to let it empty. '''
     pass
