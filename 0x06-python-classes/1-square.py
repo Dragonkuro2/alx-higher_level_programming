@@ -9,7 +9,6 @@ class Sqaure:
         ''' initialize a square instance.
 
             Arguments:
-          --------------
-        size (int): the size of square. '''
-
+                size (int): the size of square.
+        '''
         self.__size = size
