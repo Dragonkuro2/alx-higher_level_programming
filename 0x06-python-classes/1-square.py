@@ -2,7 +2,7 @@
 ''' A class that named Square that will createa private attribute.'''
 
 
-class Sqaure:
+class Square:
     ''' A class represent a square. '''
 
     def __init__(self, size):
