@@ -6,7 +6,6 @@ class Sqaure:
     ''' define a square '''
 
     def __init__(self, size):
-
         ''' init function
             Arguments:
           --------------
