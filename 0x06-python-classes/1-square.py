@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-'''I create this class that named Square that will createa private attribute'''
+''' A class that named Square that will createa private attribute.'''
 
 
 class Sqaure:
-    ''' define a square '''
+    ''' A class represent a square. '''
 
     def __init__(self, size):
-        ''' init function
+        ''' initialize a square instance.
+
             Arguments:
           --------------
-        size: the size of square '''
+        size (int): the size of square. '''
 
         self.__size = size
