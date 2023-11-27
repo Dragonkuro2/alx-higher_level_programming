@@ -98,4 +98,4 @@ class Rectangle:
 
     def __del__(self):
         """ uses when a instance deletes"""
-        print("Bye rectangle ...")
+        print("Bye rectangle...")
