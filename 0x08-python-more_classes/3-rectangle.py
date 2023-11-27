@@ -78,7 +78,7 @@ class Rectangle:
         """
 
         rectangle = []
-        if self.__width == 0  or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ""
 
         for column in range(self.__height):
@@ -86,7 +86,7 @@ class Rectangle:
                 rectangle.append("#")
             rectangle.append("\n")
 
-        #remove the last blank line
+        # remove the last blank line
         rectangle.pop()
 
         return "".join(rectangle)
