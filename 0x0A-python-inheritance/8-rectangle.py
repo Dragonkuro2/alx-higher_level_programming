@@ -21,6 +21,6 @@ class Rectangle(BaseGeometry):
     def __init__(self, width, height):
         ''' This methode sets the width and the height to be private. '''
         self.integer_validator("width", width)
-        self.integer_validator("height", height)
         self.__width = width
+        self.integer_validator("height", height)
         self.__height = height
