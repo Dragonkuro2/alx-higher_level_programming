@@ -1,5 +1,5 @@
 #!/bin/bash
-''' 9-student.py Module. '''
+''' the file  9-student.py Module. '''
 
 
 class Student:
