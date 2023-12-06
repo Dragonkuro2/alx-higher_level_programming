@@ -4,7 +4,7 @@
 
 
 def write_file(filename="", text=""):
-    ''' this function write the input text in a file with the input file name.'''
+    ''' function write the input text in a file with the input file name.'''
     with open(filename, "w", encoding='utf-8') as data:
         data.write(text)
         return len(text)
