@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/python3
 ''' the file  9-student.py Module. '''
 
 
