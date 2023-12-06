@@ -4,5 +4,5 @@
 
 def read_file(filename=""):
     ''' this function read and print the content of the input file. '''
-    with open(filename, "r") as data:
-        print(data.read())
+    with open(filename, "r", encoding='utf-8') as data:
+        print(data.read(), end="")
