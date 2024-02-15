@@ -5,13 +5,18 @@ const myObject = {
 };
 console.log(myObject);
 
+// Define incr function
 myObject.incr = function () {
   this.value++;
 };
 
+console.log(myObject);
+
 myObject.incr();
 console.log(myObject);
+
 myObject.incr();
 console.log(myObject);
+
 myObject.incr();
 console.log(myObject);
