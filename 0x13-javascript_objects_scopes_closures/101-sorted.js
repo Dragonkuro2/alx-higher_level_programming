@@ -1,13 +1,25 @@
 #!/usr/bin/node
-
 const { dict } = require('./101-data');
 
-const convertedArr = Object.entries(dict);
+// Function to compute dictionary of user ids by occurrence
+function computeUserIdsByOccurrence(occurrences) {
+  const userIdsByOccurrence = {};
 
-const newObj = {};
+  for (const userId in occurrences) {
+    const occurrence = occurrences[userId];
 
-convertedArr.forEach(element => {
-  newObj[element[1]] ? newObj[element[1]].push(element[0]) : newObj[element[1]] = [element[0]];
-});
+    if (!userIdsByOccurrence[occurrence]) {
+      userIdsByOccurrence[occurrence] = [];
+    }
 
-console.log(newObj);
+    userIdsByOccurrence[occurrence].push(userId);
+  }
+
+  return userIdsByOccurrence;
+}
+
+// Compute user ids by occurrence
+const userIdsByOccurrence = computeUserIdsByOccurrence(dict);
+
+// Print the new dictionary
+console.log(userIdsByOccurrence);
