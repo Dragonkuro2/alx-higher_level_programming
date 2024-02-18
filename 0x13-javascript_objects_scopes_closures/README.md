@@ -8,7 +8,7 @@
 
 This project aims to enhance participants' understanding of JavaScript programming by delving into core concepts such as objects, scopes, and closures. Through hands-on exploration and learning, participants will gain valuable insights into the versatility and power of JavaScript.
 
-##Authored
+## Authored
 
 This project made by [Hicham Bourezi](https://github.com/Dragonkuro2).
 
