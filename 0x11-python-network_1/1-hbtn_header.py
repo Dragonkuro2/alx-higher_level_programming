@@ -1,4 +1,7 @@
 #!/usr/bin/pyhton3
+""" a script that send a request to an url that was entred """
+
+
 import sys
 import urllib.request
 
